@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UniSync" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/unisync_green</item>
+        <item name="colorPrimaryDark">@color/unisync_green</item>
+        <item name="colorAccent">@color/unisync_green</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/unisync_cream</item>
+        <item name="android:navigationBarColor">@color/unisync_cream</item>
+        <item name="android:windowBackground">@color/unisync_cream</item>
+
+    </style>
+
+    <style name="Theme.UniSync" parent="Base.Theme.UniSync" />
+</resources>
